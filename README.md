@@ -39,7 +39,7 @@ plmc [options] alignmentfile
 Finally, a model of the fitness landscape is generated. See the example for details on how to use merge.
 
 # Prerequisites
-  ## 1. Download the latest version of UniRef100
+  ### 1. Download the latest version of UniRef100
   1. Download the latest version of UniRef100
 ```bash
 wget https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref100/uniref100.fasta.gz
@@ -52,7 +52,7 @@ gzip -d uniref100.fasta.gz
 
 For further information see [uniprot help](https://www.uniprot.org/help/downloads)
 
-## 2. Installing HMMER
+### 2. Installing HMMER
 1. Download the tarball
 ```bash
 wget http://eddylab.org/software/hmmer/hmmer.tar.gz
@@ -99,7 +99,7 @@ echo 'export PATH="/your/install/path/bin:$PATH"' >> ~/.bashrc
 
 For further information see [hmmer documentation](http://hmmer.org/documentation.html)
 
-## 3. Installing PLMC
+### 3. Installing PLMC
 1. Clone the plmc repository 
 ```bash
 git clone https://github.com/debbiemarkslab/plmc.git
@@ -127,7 +127,7 @@ echo 'export PATH="/your/install/path/plmc/bin:$PATH"' >> ~/.bashrc
 For further information see [plmc repository](https://github.com/debbiemarkslab/plmc)
 
 
-## 4. MERGE
+### 4. MERGE
 1. Clone the MERGE repository
 ```bash
 git clone https://github.com/amillig/MERGE.git
