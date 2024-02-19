@@ -29,6 +29,7 @@ python sto2a2m.py -sto <stoFile>
 ```
 
 3. Infer parameters for the Potts model using PLMC
+   
 Once the a2m file is generated, the parameters of the statitstical model are inferred.
 ```bash
 plmc [options] alignmentfile
