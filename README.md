@@ -19,9 +19,9 @@ jackhmmer [-options] <seqfile> <seqdb>
 2. Post-process the MSA
    
 In a next step, the MSA is being post-processed by
-  i. excluding all positions, where the wild type sequence has a gap,
-  ii. excluding all positions that contain more than 30 % gaps,
-  iii. excluding all sequences that contain more than 50 % gaps.
+- excluding all positions, where the wild type sequence has a gap,
+- excluding all positions that contain more than 30 % gaps,
+- excluding all sequences that contain more than 50 % gaps.
 
 The script sto2a2m.py can be found [here](https://github.com/amillig/MERGE/tree/main/scripts/sto2a2m.py).
 ```bash
