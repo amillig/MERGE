@@ -97,7 +97,7 @@ or permanently (adjust "/your/install/path" accordingly!)
 echo 'export PATH="/your/install/path/bin:$PATH"' >> ~/.bashrc
 ```
 
-9. Exit HMMER directory
+9. Exit the 'hmmer-3.4' directory
 ```bash
 cd ..
 ```
