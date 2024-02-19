@@ -4,7 +4,6 @@ MERGE represents a method that combines direct coupling analysis and machine lea
 
 ![image](https://github.com/amillig/MERGE/assets/58852023/c11ff5d1-0c75-4307-a930-8ceb1a2edea2)
 
-
 # Usage
 See 'example/example.py' 
   1) Generate sequence representations
