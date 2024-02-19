@@ -97,7 +97,7 @@ or permanently (adjust "/your/install/path" accordingly!)
 echo 'export PATH="/your/install/path/bin:$PATH"' >> ~/.bashrc
 ```
 
-9. Exit the 'hmmer-3.4' directory
+9. Exit the directory 'hmmer-3.4'
 ```bash
 cd ..
 ```
@@ -110,7 +110,7 @@ For further information see [hmmer documentation](http://hmmer.org/documentation
 git clone https://github.com/debbiemarkslab/plmc.git
 ```
 
-2. Enter thr plmc directory
+2. Enter the directory 'plmc'
 ```bash
 cd plmc
 ```
@@ -127,6 +127,11 @@ export PATH="/your/install/path/plmc/bin:$PATH"
 or permanently (adjust "/your/install/path" accordingly!)
 ```bash
 echo 'export PATH="/your/install/path/plmc/bin:$PATH"' >> ~/.bashrc
+```
+
+5. Exit the directory 'plmc'
+```bash
+cd ..
 ```
 
 For further information see [plmc repository](https://github.com/debbiemarkslab/plmc)
