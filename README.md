@@ -2,7 +2,7 @@
 
 MERGE represents a method that combines direct coupling analysis and machine learning techniques to predict a protein's fitness from sequence. It requires a binary parameter file outputted by [plmc](https://github.com/debbiemarkslab/plmc/tree/master) and sequence-fitness pairs.
 
-![image](https://github.com/amillig/MERGE/assets/58852023/c11ff5d1-0c75-4307-a930-8ceb1a2edea2)
+![MERGE_git](https://github.com/amillig/MERGE/assets/58852023/f3da6124-5bee-41a2-b4be-a9c8cd0c4947)
 
 # Usage
 See 'example/example.py' 
