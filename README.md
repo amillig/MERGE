@@ -97,6 +97,11 @@ or permanently (adjust "/your/install/path" accordingly!)
 echo 'export PATH="/your/install/path/bin:$PATH"' >> ~/.bashrc
 ```
 
+9. Exit HMMER directory
+```bash
+cd ..
+```
+
 For further information see [hmmer documentation](http://hmmer.org/documentation.html)
 
 ### 3. Installing PLMC
