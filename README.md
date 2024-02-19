@@ -39,7 +39,7 @@ plmc [options] alignmentfile
 Finally, a model of the fitness landscape is generated. See the example for details on how to use merge.
 
 # Prerequisites
-  ### 1. Download the latest version of UniRef100
+  ### 1. Get the UniRef100 Database
   1. Download the latest version of UniRef100 (this can take a while, large file > 100 GB)
 ```bash
 wget https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref100/uniref100.fasta.gz
