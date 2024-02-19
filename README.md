@@ -122,11 +122,11 @@ make all-openmp
 
 4. Add executable to PATH for session (adjust "/your/install/path" accordingly!)
 ```bash
-export PATH="/your/install/path/plmc/bin:$PATH"
+export PATH="/your/install/path/bin:$PATH"
 ``` 
 or permanently (adjust "/your/install/path" accordingly!)
 ```bash
-echo 'export PATH="/your/install/path/plmc/bin:$PATH"' >> ~/.bashrc
+echo 'export PATH="/your/install/path/bin:$PATH"' >> ~/.bashrc
 ```
 
 5. Exit the directory 'plmc'
