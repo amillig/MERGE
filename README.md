@@ -8,7 +8,7 @@ The most important steps for model construction are briefly described below. Ste
 - protein sequence in fasta format
 - variant-fitness pairs in csv format
 
-1. Generate a Multiple Sequence Alignment (MSA) Using Jackhmmer
+1. Generate a multiple sequence alignment (MSA) using jackhmmer
 
 To generate a multiple sequence alignment, the target sequence must be provided in fasta format and the inclusion threshold (--incT) must be set.
 
@@ -28,18 +28,18 @@ The script sto2a2m.py can be found [here](https://github.com/amillig/MERGE/tree/
 python sto2a2m.py -sto <stoFile>
 ```
 
-3. Infer Parameters for Potts-Model Using PLMC
+3. Infer parameters for the Potts model using PLMC
 Once the a2m file is generated, the parameters of the statitstical model are inferred.
 ```bash
 plmc [options] alignmentfile
 ```
 
-4. Construct and Explore the Model of the Fitness Landscape Using MERGE
+4. Construct and explore the model of the fitness landscape using MERGE
 
-Finally, a model of the fitness landscape is generated. See the example for details on how to use merge.
+Finally, a model of the fitness landscape is generated. See the [example](https://github.com/amillig/MERGE/tree/main/example) for details on how to use MERGE.
 
 # Prerequisites
-  ### 1. Get the UniRef100 Database
+  ### 1. Get the UniRef100 database
   1. Download the latest version of UniRef100 (this can take a while, large file > 100 GB)
 ```bash
 wget https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref100/uniref100.fasta.gz
