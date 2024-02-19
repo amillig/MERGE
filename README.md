@@ -1,12 +1,12 @@
 # MERGE
-MERGE represents a method that combines direct coupling analysis and machine learning techniques to predict a protein's fitness from sequence. It requires a binary parameter file outputted by [plmc](https://github.com/debbiemarkslab/plmc/tree/master) and sequence-fitness pairs.
+MERGE represents a method that combines direct coupling analysis and machine learning techniques to predict a protein's fitness from sequence. It requires a binary parameter file outputted by [plmc](https://github.com/debbiemarkslab/plmc/tree/master) and variant-fitness pairs.
 
 ![MERGE_git](https://github.com/amillig/MERGE/assets/58852023/f3da6124-5bee-41a2-b4be-a9c8cd0c4947)
 
 # Usage
-In the following, the most important steps for model construction are briefly described. A step-by-step guide is given in [example](https://github.com/amillig/MERGE/tree/main/example). To build a model of the fitness landscape of a protein and explore it *in silico*, the following files are required:
+The most important steps for model construction are briefly described below. Step-by-step instructions are given [here](https://github.com/amillig/MERGE/tree/main/example). To generate a model of the fitness landscape of a protein and explore it *in silico*, the following files are required:
 - protein sequence in fasta format
-- variant-fitness-pairs in csv format
+- variant-fitness pairs in csv format
 
 1. Generate a Multiple Sequence Alignment (MSA) Using Jackhmmer
 
