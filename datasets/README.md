@@ -1,3 +1,5 @@
+Benchmark studies were performed using the following datasets and the UniRef100 database (release 2021_03, June 09, 2021).
+
 | Number | Dataset | Bit Score |  L  | incT | fitnessColumn | Offset |
 | :----: | :-----: | :-------: | :-: | :--: | :-----------: | :----: |
 | 1 | [BG_STRSQ_Abate2015](https://doi.org/10.1073/pnas.1422285112) | 0.5 | 478 | 239.0 | enrichment | 2 |
