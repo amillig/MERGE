@@ -102,7 +102,7 @@ class Explore:
             return True
     
         else:
-            if random.uniform(0, 1) <= min(1, exp(diff/self.temperature)):
+            if random.uniform(0, 1) <= min(1, exp(diff/temperature)):
                 return True
 
             else:
