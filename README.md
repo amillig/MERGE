@@ -51,7 +51,7 @@ wget https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref100/uniref100.fa
 gzip -d uniref100.fasta.gz
 ```
 
-For further information see [uniprot help](https://www.uniprot.org/help/downloads)
+For further information see [uniprot help](https://www.uniprot.org/help/downloads) or [here](https://doi.org/10.1093/nar/gkac1052)
 
 ### 2. Installing HMMER
 1. Download the tarball
