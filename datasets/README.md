@@ -1,4 +1,5 @@
 Benchmark studies were performed using the following datasets and the UniRef100 database (release 2021_03, June 09, 2021).
+The datasets represent processed versions of the datasets compiled and published by [Hopf, T., Ingraham, J., Poelwijk, F. et al. Mutation effects predicted from sequence co-variation. Nat Biotechnol 35, 128–135 (2017)](https://doi.org/10.1038/nbt.3769).
 
 | Number | Dataset | Bit Score |  L  | incT | fitnessColumn | Offset |
 | :----: | :-----: | :-------: | :-: | :--: | :-----------: | :----: |
@@ -21,5 +22,3 @@ Benchmark studies were performed using the following datasets and the UniRef100 
 | 17 | [RL401_YEAST_Bolon2014](https://doi.org/10.1016/j.jmb.2014.05.019) | 0.5 | 75 | 37.5 | react_rel | 2 |
 | 18 | [UBE4B_MOUSE_Klevit2013-singles](https://doi.org/10.1073/pnas.1303309110) | 0.5 | 102 | 51.0 | nscor_log2_ratio | 1072 |
 | 19 | [YAP1_HUMAN_Fields2012-singles](https://doi.org/10.1073/pnas.1209751109) | 0.5 | 34 | 17.0 | linear | 170 |
-
-The datasets represent processed versions of the datasets compiled and published by [Hopf, T., Ingraham, J., Poelwijk, F. et al. Mutation effects predicted from sequence co-variation. Nat Biotechnol 35, 128–135 (2017)](https://doi.org/10.1038/nbt.3769).
